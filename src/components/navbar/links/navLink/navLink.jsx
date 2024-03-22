@@ -10,7 +10,7 @@ const NavLink = ({ item }) => {
     <Link
       href={item.path}
       className={`p-2 rounded-lg font-500 text-sm text-center min-w-24 ${
-        pathName === item.path && "bg-text text-bg" 
+        pathName === item.path && "bg-bg text-white" 
       }`}
     >
       {item.title}

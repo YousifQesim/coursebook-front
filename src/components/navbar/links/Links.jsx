@@ -25,7 +25,7 @@ const links = [
   },
 ];
 
-const Links = () => {
+const Links = ({session}) => {
   const [open, setOpen] = useState(false);
 
   // TEMPORARY
@@ -34,7 +34,7 @@ const Links = () => {
 
   return (
     <div className={styles.container}>
-      <div className="flex items-center gap-2">
+      <div className={styles.links}>
         {links.map((link) => (
           <NavLink item={link} key={link.title} />
         ))}
