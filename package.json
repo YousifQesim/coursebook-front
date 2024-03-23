@@ -13,13 +13,16 @@
     "@prisma/client": "^5.11.0",
     "axios": "^1.6.8",
     "bcrypt": "^5.1.1",
+    "formik": "^2.4.5",
     "js-cookie": "^3.0.5",
     "jsonwebtoken": "^9.0.2",
     "mysql2": "^3.9.2",
     "next": "14.1.0",
     "next-auth": "^4.24.7",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "yup": "^1.4.0",
+    "zxcvbn": "^4.4.2"
   },
   "devDependencies": {
     "@types/bcrypt": "^5.0.2",
@@ -27,6 +30,7 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/zxcvbn": "^4.4.4",
     "autoprefixer": "^10.0.1",
     "eslint": "^8",
     "eslint-config-next": "14.1.0",
